@@ -1,0 +1,98 @@
+{
+    "@context": {
+        "cc": "http://creativecommons.org/ns#",
+        "schema": "http://schema.org/",
+        "void": "http://rdfs.org/ns/void#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "trusted-cloud": "http://w3id.org/gaia-x/trusted-cloud#",
+        "gax-validation": "http://w3id.org/gaia-x/validation#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "voaf": "http://purl.org/vocommons/voaf#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "vcard": "http://www.w3.org/2006/vcard/ns#",
+        "gax-core": "http://w3id.org/gaia-x/core#",
+        "dct": "http://purl.org/dc/terms/",
+        "sh": "http://www.w3.org/ns/shacl#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "ids": "https://w3id.org/idsa/core/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "vann": "http://purl.org/vocab/vann/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "did": "https://www.w3.org/TR/did-core/#"
+    },
+    "@id": "did:web:registry.gaia-x.eu:ServiceOffering:Ht1On4T6bv-vXqVuGWv6fiTa7l-3MZ1APD3E",
+    "@type": "trusted-cloud:ServiceOffering",
+    "gax-core:offeredBy": [
+        {
+            "@id": "did:web:integration.gxfs.dev:api:dynamic:did:provider"
+        },
+        {
+            "@id": "did:web:integration.gxfs.dev:api:dynamic:did:provider"
+        }
+    ],
+    "trusted-cloud:generalInformation": {
+        "@type": "trusted-cloud:GeneralInformationService",
+        "trusted-cloud:name": {
+            "@value": "IONOS",
+            "@type": "xsd:string"
+        },
+        "trusted-cloud:serviceLogo": {
+            "@value": "https://www.ionos.de/newsroom/wp-content/uploads/2022/03/LOGO_IONOS_Blue_RGB-1.png",
+            "@type": "xsd:anyURI"
+        },
+        "trusted-cloud:provisionType": "public",
+        "trusted-cloud:serviceModel": "IaaS",
+        "trusted-cloud:website": {
+            "@value": "https://www.ionos.de/pro",
+            "@type": "xsd:anyURI"
+        }
+    },
+    "trusted-cloud:functionalDescription": {
+        "@type": "trusted-cloud:FunctionalDescriptionService",
+        "trusted-cloud:description": {
+            "@value": "IONOS Trusted Cloud Provider",
+            "@type": "xsd:string"
+        },
+        "trusted-cloud:briefDescription": {
+            "@value": "IONOS Trusted Cloud Provider provides trusted cloud services. ",
+            "@type": "xsd:string"
+        }
+    },
+    "trusted-cloud:dataCentres": [
+        {
+            "@id": "did:web:integration.gxfs.dev:api:dynamic:did:datacentre1"
+        },
+        {
+            "@id": "did:web:integration.gxfs.dev:api:dynamic:did:datacentre2"
+        }
+    ],
+    "trusted-cloud:Free Trial Period": {
+        "@id": "Yes"
+    },
+    "trusted-cloud:Data Center Location": {
+        "@id": "Germany"
+    },
+    "trusted-cloud:Type of Data Processing": {
+        "@id": "personal data according to GDPR"
+    },
+    "trusted-cloud:Applicable Law": {
+        "@id": "EU contract Law"
+    },
+    "trusted-cloud:Service Model": {
+        "@id": "IaaS"
+    },
+    "trusted-cloud:Interoperability": {
+        "@id": "Documented APIs are provided for administration."
+    },
+    "trusted-cloud:certificates": {
+        "@type": "trusted-cloud:CertificateScope",
+        "trusted-cloud:certificate": {
+            "@id": "did:web:integration.gxfs.dev:api:dynamic:did:certificate1"
+        },
+        "trusted-cloud:scope": {
+            "@value": "<a href=\"https://www.trusted-cloud.de/certificate/view/197.pdf\" target=\"blank\">DCNW IOS/IEC 27001:2013 Certificate</a>",
+            "@type": "xsd:string"
+        }
+    }
+}

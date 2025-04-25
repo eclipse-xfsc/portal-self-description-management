@@ -1,0 +1,98 @@
+{
+    "@context": {
+        "cc": "http://creativecommons.org/ns#",
+        "schema": "http://schema.org/",
+        "void": "http://rdfs.org/ns/void#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "trusted-cloud": "http://w3id.org/gaia-x/trusted-cloud#",
+        "gax-validation": "http://w3id.org/gaia-x/validation#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "voaf": "http://purl.org/vocommons/voaf#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "vcard": "http://www.w3.org/2006/vcard/ns#",
+        "gax-core": "http://w3id.org/gaia-x/core#",
+        "dct": "http://purl.org/dc/terms/",
+        "sh": "http://www.w3.org/ns/shacl#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "ids": "https://w3id.org/idsa/core/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "vann": "http://purl.org/vocab/vann/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "did": "https://www.w3.org/TR/did-core/#"
+    },
+    "@id": "did:web:registry.gaia-x.eu:ServiceOffering:Ht1On4T6bv-vXqVuGWv6fiTa7l-3MZ1APD3E",
+    "@type": "trusted-cloud:ServiceOffering",
+    "gax-core:offeredBy": [
+        {
+            "@id": "did:web:integration.gxfs.dev:api:dynamic:did:provider"
+        },
+        {
+            "@id": "did:web:integration.gxfs.dev:api:dynamic:did:provider"
+        }
+    ],
+    "trusted-cloud:generalInformation": {
+        "@type": "trusted-cloud:GeneralInformationService",
+        "trusted-cloud:name": {
+            "@value": "Open Telekom Cloud based on OpenStack ",
+            "@type": "xsd:string"
+        },
+        "trusted-cloud:serviceLogo": {
+            "@value": "https://www.trusted-cloud.de/sites/default/files/service_logos/2383_1021_otc_innen_positiv.png",
+            "@type": "xsd:anyURI"
+        },
+        "trusted-cloud:provisionType": "Hybrid Privat Public",
+        "trusted-cloud:serviceModel": "IaaS",
+        "trusted-cloud:website": {
+            "@value": "https://open-telekom-cloud.com/",
+            "@type": "xsd:anyURI"
+        }
+    },
+    "trusted-cloud:functionalDescription": {
+        "@type": "trusted-cloud:FunctionalDescriptionService",
+        "trusted-cloud:description": {
+            "@value": "Open Telekom Cloud based on OpenStack with Self Service-Portal",
+            "@type": "xsd:string"
+        },
+        "trusted-cloud:briefDescription": {
+            "@value": "Das Public-IaaS-Produkt der Deutschen Telekom AG basiert auf dem OpenSource Softwareprojekt OpenStack, dass eine offene Architektur für Cloud Computing zur Verfügung stellt. Die flexibel, skalierbaren IT-Ressourcen aus der Cloud können über ein Self-Service-Portal oder über programmierbare Schnittstellen (API) administriert und einzelne Komponenten wie CPU, RAM, Storage und Netzwerk ausgewählt sowie konfiguriert werden. Maximale Freiheit ist durch die OpenSource Version von OpenStack garantiert.",
+            "@type": "xsd:string"
+        }
+    },
+    "trusted-cloud:dataCentres": [
+        {
+            "@id": "did:web:integration.gxfs.dev:api:dynamic:did:datacentre1"
+        },
+        {
+            "@id": "did:web:integration.gxfs.dev:api:dynamic:did:datacentre2"
+        }
+    ],
+    "trusted-cloud:Free Trial Period": {
+        "@id": "Yes"
+    },
+    "trusted-cloud:Data Center Location": {
+        "@id": "Germany, Netherlands, Switzerland"
+    },
+    "trusted-cloud:Type of Data Processing": {
+        "@id": "personal data according to GDPR"
+    },
+    "trusted-cloud:Applicable Law": {
+        "@id": "EU contract Law"
+    },
+    "trusted-cloud:Interoperability": {
+        "@id": "Documented APIs are provided for administration."
+    },
+    "trusted-cloud:Service Architecture": {
+        "@id": "OpenStack"
+    },
+    "trusted-cloud:certificates": {
+        "@type": "trusted-cloud:CertificateScope",
+        "trusted-cloud:certificate": {
+            "@id": "did:web:integration.gxfs.dev:api:dynamic:did:certificate1"
+        },
+        "trusted-cloud:scope": {
+            "@value": "EU Cloud CoC",
+            "@type": "xsd:string"
+        }
+    }
+}

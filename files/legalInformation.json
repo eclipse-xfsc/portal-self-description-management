@@ -1,0 +1,49 @@
+{
+    "@context": {
+        "schema": "http://schema.org/"
+    },
+    "@id": "did:web:registry.gaia-x.eu:Provider:MuHsI8a92lQ05y4qeUZlWzDRgaej4Irvd4s2",
+    "@type": "trusted-cloud:legalInformation",
+    "attestationReference": {
+        "protocol": "AIP",
+        "version": "1.0",
+        "name": "Legal Information",
+        "presentationDefinition": {
+            "input_descriptors": [
+                {
+                    "id": "legalInformation_Credential",
+                    "name": "Notarized Legal Information Credential",
+                    "purpose": "Proofs a valid entity.",
+                    "constraints": {
+                        "fields": [
+                            {
+                                "path": [
+                                    "$.schemaId"
+                                ],
+                                "filter": {
+                                    "type": "string",
+                                    "const": "AR7nFzwhjpm5AamWKLu4JA:2:gxfs-legal-information-v:1.0.0"
+                                }
+                            },
+                            {
+                                "path": [
+                                    "$.did",
+                                    "$.legalName",
+                                    "$.legalForm",
+                                    "$.registrationNumber",
+                                    "$.headquarterAdress",
+                                    "$.vatNumber",
+                                    "$.registrationDate",
+                                    "$.SME",
+                                    "$.managingDirector",
+                                    "$.mainContact",
+                                    "$.dataProtectionOfficer"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}
